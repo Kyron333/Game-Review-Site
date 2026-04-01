@@ -63,6 +63,108 @@ main {
     padding: 1rem;
 }
 
+.review-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.game-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: min(100%, 260px);
+    box-shadow: 0 2px 7px rgba(0,0,0,.08);
+}
+
+.game-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.game-card-content {
+    padding: 0.75rem;
+}
+
+.game-card-content h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+}
+
+.game-card-content a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.game-card-content a:hover {
+    text-decoration: underline;
+}
+
+.platform-ps5 {
+    background-color: #003087; /* PlayStation Blue */
+    color: #fff;
+}
+
+.platform-ps5 .game-card-content a,
+.platform-ps5 a {
+    color: #fff;
+}
+
+.platform-switch {
+    background-color: #E60012; /* Nintendo Red */
+    color: #fff;
+}
+
+.platform-switch .game-card-content a,
+.platform-switch a {
+    color: #fff;
+}
+
+.platform-xbox {
+    background-color: #107C10; /* Xbox Green */
+    color: #fff;
+}
+
+.platform-xbox .game-card-content a,
+.platform-xbox a {
+    color: #fff;
+}
+
+.platform-pc {
+    /* stays default */
+}
+
+.page-cover {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 7px rgba(0,0,0,.08);
+}
+
+.page-cover img {
+    width: 160px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.page-cover .cover-details {
+    flex: 1 1 220px;
+}
+
+.page-cover .cover-details h2 {
+    margin-top: 0;
+}
+
 footer {
     background-color: #333;
     color: #fff;
